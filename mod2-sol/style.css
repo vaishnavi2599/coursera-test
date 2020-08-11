@@ -1,255 +1,252 @@
-
-*{
-	box-sizing: border-box;
+body{
+	font-family: Arial,Helvetica,sans-serif;
 }
 
 h1{
 	text-align: center;
-	font-family: Arial,Helvetica,sans-serif;
+	
+}
+#divv{
+	
+box-sizing: border-box;
 }
 
-section{
-	padding: 0px 5px 5px 10px;
+
+#s1{
+	padding: 40px 5px 5px 10px;
 	font-weight: 500;
 }
-
 @media(min-width: 992px){
-	#div1{
-	background-color: orange;
+
+#div1{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 300px;
+	margin: 10px;
+    border: 1px solid black;
+	margin: 10px;
+    width: 30%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#div2{
-	background-color: orange;
+#div2{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 300px;
+	margin: 10px;
+    border: 1px solid black;
+	margin: 10px;
+    width: 30%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#div3{
-	background-color: orange;
+#div3{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 300px;
+	margin: 10px;
+    border: 1px solid black;
+	margin: 10px;
+    width: 30%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
+
 	#p11{
-	margin-top: -3px;
-	margin-left: 197px;
+	margin-bottom: 10px;
     width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: mistyrose;
 }
 #p12{
-	margin-top: -3px;
-	margin-left: 197px;
+	margin-bottom: 10px;
     width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: crimson;
+    color: white;
 }
 #p13{
-	margin-top: -3px;
-	margin-left: 197px;
+	margin-bottom: 10px;
     width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: cornsilk;
 }
-
 }
 @media(min-width: 768px) and (max-width: 991px){
-	#div1{
-	background-color: orange;
+
+#div1{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 350px;
+	margin: 5px;
+    border: 1px solid black;
+	margin: 9px;
+    width: 46%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#div2{
-	background-color: orange;
+#div2{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 350px;
+	margin: 10px;
+    border: 1px solid black;
+	margin: 9px;
+    width: 46%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-#div3{
-	background-color: orange;
+#div3{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 725px;
+	margin: 10px;
+    border: 1px solid black;
+	margin: 10px;
+    width: 95%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
+
 	#p11{
-	margin-top: -3px;
-	margin-left: 247px;
+	margin-bottom: 10px;
     width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
-}
-#p11{
-	margin-top: -3px;
-	margin-left: 247px;
-    width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
-    text-align: center;
-    padding-top: 6px;
-    font-family: Arial,Helvetica,sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    background-color: violet;
+    background-color: mistyrose;
 }
 #p12{
-	margin-top: -3px;
-	margin-left: 247px;
+	margin-bottom: 10px;
     width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: crimson;
+    color: white;
 }
 #p13{
-	margin-top: -3px;
-	margin-left: 602px;
-    width: 120px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	margin-bottom: 10px;
+    width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: cornsilk;
 }
 
-
-}
+	}
 @media(max-width: 767px){
-#div1{
-	background-color: orange;
+#div1{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 450px;
+	margin: 20px;
+    border: 1px solid black;
+	margin: 10px;
+	margin-left: 35px;
+    width: 90%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#div2{
-	background-color: orange;
+#div2{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 450px;
+	margin: 20px;
+    border: 1px solid black;
+	margin: 10px;
+	margin-left: 35px;
+    width: 90%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#div3{
-	background-color: orange;
+#div3{position: relative;
+	background-color: silver;
     float: left;
-	margin: 15px;
-    border: 2px solid black;
-	margin: 12px;
-    width: 65%;
+	margin: 20px;
+    border: 1px solid black;
+	margin: 10px;
+	margin-left: 35px;
+    width: 90%;
 	height: 160px;
 	overflow:hidden;
 	font-size: 17px;}
-	#p11{
-	margin-top: -3px;
-	margin-left: 197px;
-    width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+
+#p11{
+	margin-bottom: 10px;
+        width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: mistyrose;
 }
 #p12{
-	margin-top: -3px;
-	margin-left: 197px;
-    width: 100px;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	margin-bottom: 10px;
+        width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: crimson;
+    color: white;
 }
 #p13{
-	margin-top: -3px;
-	margin-left: 197px;
-    width: 60%;
-	height: 40px;
-	border: 2px solid black;
-    margin-bottom: 15px;
+	margin-bottom: 10px;
+        width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+    right: 0px;
+    top:0px;
     text-align: center;
-    padding-top: 6px;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 600;
     font-size: 20px;
-    background-color: violet;
+    background-color: cornsilk;
 }
-
-}
+	}
