@@ -1,11 +1,12 @@
 body{
 	
 	font-family: 'Oxygen', sans-serif;
+	background-color:wheat;
 
 }
 
 #header-nav{
-	background-color: lightgray;
+	background-color: sandybrown;
 	border-radius: 0;
 	border: 0;
 
@@ -31,7 +32,7 @@ a > h3{
 	margin-left: 40px !important;
 }
 section.container-fluid{
-	background:lightgray;
+	background:sandybrown;
 	margin:40px;
 
 }
