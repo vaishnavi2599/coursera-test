@@ -50,12 +50,5 @@ p{
 div.container-fluid{
 	border: 1px solid black;
 }
-@media(max-width:578px){
-
-
-}
-
-}
-@media(min-width: @screen-xs-min){
-	
-}
+@media(max-width:578px){}
+@media(min-width: @screen-xs-min){}
