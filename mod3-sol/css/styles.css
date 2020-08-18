@@ -1,0 +1,50 @@
+body{
+	
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+#header-nav{
+	background-color: lightgray;
+	border-radius: 0;
+	border: 0;
+
+    font-weight: bold;
+
+}
+
+button{
+	margin-top: 10px !important;
+}
+#nav-list a{
+      text-align: center; 
+      background-color:white;
+      border: 1px solid black;
+      
+    }
+.navbar-brand{
+	padding: 0px !important ;
+
+}
+a > h3{
+	margin-top: 15px !important;
+	margin-left: 40px !important;
+}
+section.container-fluid{
+	background:lightgray;
+	margin:40px;
+
+}
+p{
+	padding: 10px;
+}
+
+@media(max-width:578px){
+
+
+}
+
+}
+@media(min-width: @screen-xs-min){
+	
+}
