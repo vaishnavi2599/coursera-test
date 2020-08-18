@@ -1,12 +1,12 @@
 body{
 	
 	font-family: 'Oxygen', sans-serif;
-	background-color:wheat;
+	background: lemonchiffon !important;
 
 }
 
 #header-nav{
-	background-color: sandybrown;
+	background-color: peachpuff;
 	border-radius: 0;
 	border: 0;
 
@@ -30,9 +30,11 @@ button{
 a > h3{
 	margin-top: 15px !important;
 	margin-left: 40px !important;
+	text-decoration-color: black !important;
 }
 section.container-fluid{
-	background:sandybrown;
+	border: 1px solid black;
+	background:peachpuff;
 	margin:40px;
 
 }
@@ -40,6 +42,13 @@ p{
 	padding: 10px;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+   border: 1px solid black;
+}
+
+div.container-fluid{
+	border: 1px solid black;
+}
 @media(max-width:578px){
 
 
