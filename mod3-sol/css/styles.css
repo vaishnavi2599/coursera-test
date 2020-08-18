@@ -36,6 +36,7 @@ section.container-fluid{
 	border: 1px solid black;
 	background:peachpuff;
 	margin:40px;
+	box-shadow: 5px 5px 5px 5px grey;
 
 }
 p{
